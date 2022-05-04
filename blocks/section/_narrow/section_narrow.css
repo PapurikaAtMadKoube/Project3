@@ -1,0 +1,12 @@
+.section_narrow {
+  max-width: 984px;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+
+/* @media screen and (max-width: 820px) {
+  .section_narrow { 
+    max-width: 772px;
+    margin-top: 20px;
+}
+} */

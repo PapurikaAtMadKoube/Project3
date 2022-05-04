@@ -1,0 +1,9 @@
+.place__artist-label {
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: #AAAAAA; 
+
+/* margin-top: 130px; */
+}
