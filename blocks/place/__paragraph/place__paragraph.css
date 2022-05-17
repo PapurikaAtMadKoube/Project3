@@ -1,9 +1,20 @@
 .place__paragraph {
   font-size: 18px;
-  line-height: 1.63;
+  line-height: 29px;
   margin-top: 25px 0 0;
+  /* color: red; */
 }
 
 .place__paragraph:first-of-type {
   margin-top: 0;
+}
+
+@media screen and (max-width: 820px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    /* hyphens: none; */
+  }
+
 }

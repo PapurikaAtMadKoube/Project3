@@ -1,7 +1,19 @@
 .photo-grid {
   font-family: 'Inter', Arial, sans-serif;
-  padding: 48px 24px 48px;
-  max-width: 1232px;
-  margin: 0 auto; 
-  /* box-sizing: content-box; */
+  margin: auto;
+}
+
+@media screen and (max-width: 820px) {
+  .photo-grid {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .photo-grid {
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 288px;
+  }
 }

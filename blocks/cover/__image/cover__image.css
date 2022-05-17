@@ -1,0 +1,26 @@
+.cover__image {
+  z-index: -3;
+  /* height: 740px; */
+  /* max-width: 1184px; */
+  width: 100%;
+  max-width: 1184px;
+  object-fit: fill;
+  max-width: 1184px;
+  margin: auto;
+}
+/* 
+.cover__image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: 0.3s;
+  z-index: -1;
+}
+ */

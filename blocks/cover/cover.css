@@ -4,17 +4,18 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url('../../images/cover__background.png');
-  background-repeat: no-repeat;
-  
-  height: 740px;
-  /* max-width: 1184px; */
-  width: 100%;
-  max-width: 1184px;
-  margin: auto;
+  margin: 0 auto;
 
   position: relative;
   z-index: 0;
+
+  background: url('../../images/cover__background.png');
+  background-repeat:no-repeat; 
+
+  height: 740px;
+  width: 100%;
+  max-width: 1184px;
+  
 }
 
 .cover::before {
@@ -34,5 +35,13 @@
 
 .cover:hover::before {
   opacity: 0.8;
-  
+}
+
+@media screen and (max-width: 560px) {
+  .cover {
+    height: auto;
+    background-size: cover;
+    /* background-size: contain; */
+    padding: 46px 0;
+  }
 }

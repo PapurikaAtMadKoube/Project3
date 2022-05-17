@@ -6,12 +6,12 @@
   /* font-style: normal; */
   max-width: 460px;
   grid-area: title;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 820px) {
   .place__title {
-    font-weight: 900;
     font-size: 42px;
     line-height: 46px;
   }

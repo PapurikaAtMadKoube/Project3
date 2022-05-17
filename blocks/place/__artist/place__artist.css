@@ -1,5 +1,6 @@
 .place__artist {
   grid-area: artist;
-  /* margin-top: 130px; */
-  /* align-items: flex-end; */
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }

@@ -11,3 +11,9 @@
   margin-bottom: 10px;
   color: #ffffff;
 }  
+
+@media screen and (max-width: 560px) {
+  .intro__quote-text {
+    line-height: 30px;
+  }
+}
