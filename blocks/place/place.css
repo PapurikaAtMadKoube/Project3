@@ -28,7 +28,7 @@
       "text"
       "button";
     grid-template-columns: 1fr;
-    grid-gap: 12px;
+    grid-gap: 30px;
     
   }
 }

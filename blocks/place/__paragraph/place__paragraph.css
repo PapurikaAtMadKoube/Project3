@@ -18,3 +18,11 @@
   }
 
 }
+
+@media screen and (max-width: 560px) {
+  .place__paragraph {
+    margin-bottom: 0;
+    /* hyphens: none; */
+  }
+
+}
