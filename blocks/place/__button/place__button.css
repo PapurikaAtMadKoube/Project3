@@ -2,3 +2,10 @@
   grid-area: button;
   
 }
+
+@media screen and (max-width: 560px) {
+  .place__button { 
+    margin: 0 auto;
+    padding: 13px 40px;
+  }
+}

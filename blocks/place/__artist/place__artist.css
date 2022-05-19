@@ -5,3 +5,9 @@
   justify-content: end;
 }
 
+
+@media screen and (max-width: 560px) {
+  .place__artist {
+    margin: 0 16px;
+  }
+}

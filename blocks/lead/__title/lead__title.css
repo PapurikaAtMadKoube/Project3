@@ -4,11 +4,11 @@
   line-height: 100px;
   text-align: center;
   margin: 0 auto;
+  max-width: 793px;
 }
 
 @media screen and (max-width: 1140px) {
   .lead__title {
-    /* color: red; */
     max-width: 720px;
   }
 }
@@ -18,5 +18,7 @@
   .lead__title {
     font-size: 40px;
     line-height: 44px;
+    margin: 0 16px;
+    max-width: 288px;
   }
 }

@@ -1,9 +1,7 @@
 .place__title {
-  /* color: #fff; */
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  /* font-style: normal; */
   max-width: 460px;
   grid-area: title;
   margin-top: 0;
@@ -16,4 +14,12 @@
     line-height: 46px;
   }
   
+}
+
+@media screen and (max-width: 560px) {
+  .place__title {
+    margin: 0 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
