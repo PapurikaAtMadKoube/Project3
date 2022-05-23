@@ -14,4 +14,4 @@ This is a project that showcases the hometowns of some of Practicum's employees 
   
 **Github**  
  
- (https://github.com/PapurikaAtMadKoube/Project3)
+* [Link to the project on Github](https://github.com/PapurikaAtMadKoube/Project3)
