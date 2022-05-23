@@ -6,7 +6,7 @@
   
 **Intro**    
   
-This is a project that showcases the hometowns of some of Practicum's employees. 
+This is a project that showcases the hometowns of some of Practicum's employees and students.
   
 **Figma**  
   
